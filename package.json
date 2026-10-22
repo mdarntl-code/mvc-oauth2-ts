@@ -1,0 +1,25 @@
+{
+  "name": "mvc-oauth2-ts",
+  "version": "1.0.0",
+  "description": "Практична робота: Реалізація MVC патерну для OAuth 2.0 авторизації (GitHub/Google) на TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [
+    "mvc",
+    "typescript",
+    "oauth2",
+    "github",
+    "google"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
